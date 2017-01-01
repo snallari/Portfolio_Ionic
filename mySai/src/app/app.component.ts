@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { Platform } from 'ionic-angular';
-import { StatusBar, Splashscreen } from 'ionic-native';
 
 import { HelloIonicPage } from '../pages/helloIonic/helloIonic';
 
@@ -14,8 +13,7 @@ export class MyApp {
 
   constructor(
     private platform: Platform,
-    private menu: MenuController,
-  ){
-
+    // private menu: MenuController
+    ){
   }
 }
